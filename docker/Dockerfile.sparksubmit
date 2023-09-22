@@ -1,0 +1,8 @@
+FROM spark-shell-image
+COPY ./scripts/start-history-server-and-wait.sh /usr/share/spark/sbin/start-history-server-and-wait.sh
+COPY ./scripts/start-master.sh /usr/share/spark/sbin/start-master.sh
+COPY ./scripts/start-worker.sh /usr/share/spark/sbin/start-worker.sh
+RUN mkdir /event_log_directory
+RUN chmod 777 /usr/share/spark/sbin/*
+RUN chmod 777 /event_log_directory
+COPY ./spark-defaults.conf /usr/share/spark/conf/

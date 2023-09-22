@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+
+  spark-image:
+    build:
+      context: .
+      dockerfile: Dockerfile.sparkshell
+    image: spark-shell-image
+
+  spark-shell-container:
+    image: spark-shell-image
+    container_name: spark-shell-container
+    ports:
+      - "4040:4040"
+    command: tail -f /dev/null

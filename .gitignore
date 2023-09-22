@@ -1,0 +1,59 @@
+# SBT specific
+target/
+lib_managed/
+src_managed/
+project/project/
+project/target/
+.bsp/
+
+# Scala-IDE specific
+.bin/
+.scala_dependencies
+
+# IntelliJ Specific
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Mac OS X
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled Binary
+*.class
+*.cache
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Packages
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Keys
+*.pem
+*.pub
+
+# Temporary Files
+*.tmp
+*.swp
+*.bak
+*.save
+
+# Test output
+output/
+
+# Spark Specific
+derby.log
+metastore_db/
