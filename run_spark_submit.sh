@@ -3,8 +3,8 @@
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 if [ -z "$1" ]; then
-    echo "Fornire uno script da eseguire"
-    echo "Utilizzo: $0 nome_script"
+    echo "Fornire la classe da eseguire"
+    echo "Utilizzo: $0 nome.package.NomeClasse"
     exit 1
 fi
 
