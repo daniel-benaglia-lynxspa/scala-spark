@@ -8,7 +8,7 @@ Per eseguire la spark-shell o lo spark-submit è necessario avere Docker install
 ### Bash
 I comandi degli script e tutti i comandi descritti di seguito sono per shell bash, se siete su Windows è necessario utilizzare WSL2 (è importante che sia WSL2 e non WSL1)
 #### Windows Subsystem For Linux
-Consiglio Ububtu o Debian  
+Consiglio Ubuntu o Debian  
 https://learn.microsoft.com/it-it/windows/wsl/install
 #### WSL2 Docker
 Qua torvate le indicazioni per assicurarvi che state usando WSL2  
